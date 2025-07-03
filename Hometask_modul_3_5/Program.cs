@@ -60,7 +60,7 @@ class Program
                 Console.WriteLine($"{fileName} → merged.txt : {line}");
             }
 
-            Thread.Sleep(100); // simulyatsiya: vaqt kerakdek
+            Thread.Sleep(100);
         }
     }
 }
