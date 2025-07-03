@@ -7,9 +7,13 @@
             Thread thread1 = new Thread(Thread1);
             Thread thread2 = new Thread(Thread2);
             thread1.Start();
-            Thread.Sleep(100);
-
             thread2.Start();
+            ////wefwefwerferf
+            ///dfkwedfwe
+            ///edew
+            ///wedwed
+            ///
+
         }
 
         static void Thread1()
