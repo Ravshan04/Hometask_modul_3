@@ -15,7 +15,7 @@ class Program
     static void Main()
     {
         Console.Clear();
-
+        
         // Har bir threadga progress chizig‘i boshlab beriladi
         lock (consoleLock)
         {
@@ -42,7 +42,7 @@ class Program
         {
             Console.SetCursorPosition(0, 4);
             Console.ResetColor();
-            Console.WriteLine("✅ Barcha threadlar progressni tugatdi.");
+            Console.WriteLine("Barcha threadlar progressni tugatdi.");
         }
     }
 
@@ -61,7 +61,6 @@ class Program
                 Console.Write(new string('=', steps[line]) + ">");
                 Console.ResetColor();
             }
-
             Thread.Sleep(500); // progress sekinlashsin
             nextTurn.Set();    // navbat keyingi threadga beriladi
         }
